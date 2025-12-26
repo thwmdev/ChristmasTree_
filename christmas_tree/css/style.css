@@ -1,0 +1,40 @@
+body { 
+    margin: 0;
+    overflow: hidden; 
+    background: #000; /* Nền đen hoàn toàn */
+}
+
+#title {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%); /* Luôn nằm giữa màn hình */
+    z-index: 1000;
+    
+    color: #FFD700;
+    font-family: 'Arial', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    pointer-events: none;
+    
+    /* Hiệu ứng bóng đổ nhẹ cho sang trọng */
+    text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+}
+
+#openBtn { 
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 35px;
+    font-size: 20px;
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    z-index: 100;
+}
