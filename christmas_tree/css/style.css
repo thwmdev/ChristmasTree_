@@ -1,14 +1,14 @@
 body { 
     margin: 0;
     overflow: hidden; 
-    background: #000; /* Nền đen hoàn toàn */
+    background: #000;
 }
 
 #title {
     position: absolute;
     top: 50px;
     left: 50%;
-    transform: translateX(-50%); /* Luôn nằm giữa màn hình */
+    transform: translateX(-50%);
     z-index: 1000;
     
     color: #FFD700;
@@ -18,11 +18,9 @@ body {
     text-align: center;
     white-space: nowrap;
     pointer-events: none;
-    
-    /* Hiệu ứng bóng đổ nhẹ cho sang trọng */
+    /*bóng đổ nhẹ*/
     text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
 }
-
 #openBtn { 
     position: absolute;
     bottom: 50px;
